@@ -1,14 +1,18 @@
-#Print 1st Movie
-print("Into the Spider Verse")
+def topFiveMovies():
+    #Print the first movie
+    print("Into the Spider Verse")
 
-#Print 2nd movie
-print("Batman the Dark Knight")
+    #Print second movie
+    print("The Dark Knight")
 
-#Print 3rd movie
-print("The Black Pearl")
+    #Print third movie
+    print("The Black Pearl")
 
-#Print 4th movie
-print("Black Panther")
+    #Print fourth movie
+    print("Black Panther")
 
-#Print 5th movie
-print("Cruella")
+    #Print fifth movie
+    print("A Silent Voice")
+
+print("these are my top five movies")
+topFiveMovies()
