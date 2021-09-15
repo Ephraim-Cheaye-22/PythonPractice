@@ -35,3 +35,13 @@ def favoriteFastFoodPlaces():
 
 print("these are my favorite Fast Food Places")
 favoriteFastFoodPlaces()
+
+#define a Function that outputs your name
+#followed by "is my name"
+def myNameIs(turtle):
+
+    #output string
+    print("Ephraim is my name")
+
+#run function
+myNameIs("Ephraim")
