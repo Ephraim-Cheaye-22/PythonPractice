@@ -41,7 +41,32 @@ favoriteFastFoodPlaces()
 def myNameIs(turtle):
 
     #output string
-    print("Ephraim is my name")
+    print(turtle + "is my name")
 
 #run function
 myNameIs("Ephraim")
+
+def timesTwo(x):
+    print(x * 2)
+
+timesTwo(30)
+
+def plusFive(x):
+    print(x + 5)
+
+plusFive(10)
+
+def divideTwo(x):
+    print(x / 2)
+
+divideTwo(20)
+
+def addTwoNumbers(x, y):
+    print(x + y)
+
+addTwoNumbers(10,59)
+
+def madLimb(a, b, c, d, e, f, g, h, i, j):
+    print("Star wars is a" + a + b + "of" + c + "versus evil in a" + d + "far far away." "There are" + e + "battles between" + f + g + "in" + h + "space and" + i + "duels with" + j)
+
+madLimb("Huge", "pool", "cold",)
