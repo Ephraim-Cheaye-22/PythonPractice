@@ -69,4 +69,4 @@ addTwoNumbers(10,59)
 def madLimb(a, b, c, d, e, f, g, h, i, j):
     print("Star wars is a" + a + b + "of" + c + "versus evil in a" + d + "far far away." "There are" + e + "battles between" + f + g + "in" + h + "space and" + i + "duels with" + j)
 
-madLimb("Huge", "pool", "cold",)
+madLimb("Huge", "pool", "cold", "Beach", "Hairy", "Smelly", "Toyotas", "Chubby", "Cheeto", "Dark")
