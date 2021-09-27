@@ -70,3 +70,62 @@ def madLimb(a, b, c, d, e, f, g, h, i, j):
     print("Star wars is a" + a + b + "of" + c + "versus evil in a" + d + "far far away." "There are" + e + "battles between" + f + g + "in" + h + "space and" + i + "duels with" + j)
 
 madLimb("Huge", "pool", "cold", "Beach", "Hairy", "Smelly", "Toyotas", "Chubby", "Cheeto", "Dark")
+
+def greaterThan10(x):
+    if x > 10:
+        return "x is greater than 10"
+        
+    elif x == 10:
+        return "x equals 10"
+    else:
+        return "x is not greater than 10"
+
+print(greaterThan10(5))
+
+def equalsTen(x):
+    if x == 10:
+        return "x equals 10!!!!!!"
+
+    elif x > 10:
+        return "x is greater than 10"
+
+    else:
+        return "x is not equal to 10"
+
+print(equalsTen(10))
+
+def favColor(color):
+    if color == "red":
+        return "your favorite color is red"
+    else:
+        return "your favorite color is not red"
+
+print(favColor("red"))
+
+def define(word):
+
+    word = word.lower()
+    
+    if word == "simple":
+        return "easily understood"
+    elif word == "nice":
+        return "pleasant"
+    elif word == "brave":
+        return "ready to face danger"
+    elif word == "real":
+        return "actually exists"
+    elif word == "copy":
+        return "a thing made to similar to another"
+    elif word == "evil":
+        return "profoundly wicked"
+    elif word == "sin":
+        return "immoral act"
+    elif word == "hero":
+        return "a person who is admired for their courage"
+    elif word == "save":
+        return "keep safe"
+    elif word == "fun":
+        return "enjoyment"
+    else:
+        return "definition not given"
+print(define("fun"))
