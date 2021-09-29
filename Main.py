@@ -129,3 +129,41 @@ def define(word):
     else:
         return "definition not given"
 print(define("fun"))
+
+print(abs(5-7))
+
+print(23 % 10)
+
+print(5 % 2)
+
+def evenOrOdd(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+
+
+def twoBigNumbers(x, y):
+    if x > 10 and y > 10:
+        return True
+    else:
+        return False
+
+def twoBigNumbers(x, y):
+    if x > 10 or y > 10:
+        return True
+    else:
+        return False
+
+def twoBigNumbers(x, y):
+    if x > 10 or not y > 10:
+        return True
+    else:
+        return False
+
+def function(x, y, z):
+    if x > 10 or not y > 10 and z == 5:
+        return True
+    else:
+        return False
+        
