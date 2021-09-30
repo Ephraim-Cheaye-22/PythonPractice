@@ -167,3 +167,36 @@ def function(x, y, z):
     else:
         return False
         
+def function():
+
+    count = 5
+
+    while count <= 100:
+        print(count)
+        count = count + 5
+
+
+function()
+
+def ha():
+
+    count = 1
+
+    while count <= 100:
+        print(count)
+        count =  count + 1
+ 
+ha()
+
+def ra():
+    count = 1
+    potato = 1
+
+    while potato <= 10:
+        while count <= 10:
+            print(count)
+            count = count + 1
+        potato = potato + 1
+        count = 1
+
+ra()
