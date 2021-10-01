@@ -200,3 +200,20 @@ def ra():
         count = 1
 
 ra()
+
+myString = "potato" 
+#           012345
+print(myString[2])
+
+def lastLetter(w):
+    return w[len(w)-1]
+
+print(lastLetter("dog"))
+
+def spellingBee(w):
+    
+    x = 0
+
+    while x < 3:
+        print(w[x])
+        x =
