@@ -210,10 +210,11 @@ def lastLetter(w):
 
 print(lastLetter("dog"))
 
-def spellingBee(w):
-    
-    x = 0
+for i in range(1, 11):
+    print(i)
 
-    while x < 3:
-        print(w[x])
-        x =
+i = 1
+
+while i < 11:
+    print(i)
+    i = i + 1
